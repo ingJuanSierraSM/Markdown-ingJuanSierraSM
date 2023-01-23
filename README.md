@@ -70,3 +70,20 @@ Headings
     ##### h5: Heading Level 5
     ###### h6: Heading Level 6
 
+Paragraphs
+----------
+
+----------
+
+Separate with a __blank line__ (Type Enter) 2 paragraphs or lines of text.
+
+```
+Paragraph 1.
+
+Paragraph 2.
+```
+
+Paragraph 1.
+
+Paragraph 2.
+
