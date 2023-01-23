@@ -33,11 +33,11 @@ Headings
     
     <br>
 
-    ```
+    ```markdown
     # h1: Heading Level 1
     ```
     
-    ```
+    ```markdown
     h1: Heading Level 1
     =====
     ```
@@ -46,11 +46,11 @@ Headings
     
     <br>
 
-    ```
+    ```markdown
     ## h2: Heading Level 2
     ```
     
-    ```
+    ```markdown
     h2: Heading Level 2
     ------------
     ```
@@ -58,7 +58,7 @@ Headings
     
     <br>
 
-    ```
+    ```markdown
     ### h3: Heading Level 3
     #### h4: Heading Level 4
     ##### h5: Heading Level 5
@@ -69,6 +69,8 @@ Headings
     #### h4: Heading Level 4
     ##### h5: Heading Level 5
     ###### h6: Heading Level 6
+
+<br>
 
 Paragraphs
 ----------
@@ -77,7 +79,7 @@ Paragraphs
 
 Separate with a __blank line__ (Type Enter) 2 paragraphs or lines of text.
 
-```
+```markdown
 Paragraph 1.
 
 Paragraph 2.
@@ -86,4 +88,24 @@ Paragraph 2.
 Paragraph 1.
 
 Paragraph 2.
+
+<br>
+
+Line Breaks
+-----------
+
+-----------
+
+- Add 2 or more spaces after the line text (trailing whitespace) and type Enter.
+- You can use the `<br>` HTML tag as alternative.
+
+    ```markdown
+    Line text.  
+    Other line text.<br>
+    Other line text.
+    ```
+
+    Line text.  
+    Other line text.<br>
+    Other line text.
 
