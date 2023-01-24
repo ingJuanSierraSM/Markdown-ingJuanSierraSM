@@ -109,3 +109,74 @@ Line Breaks
     Other line text.<br>
     Other line text.
 
+<br>
+
+Emphasis
+--------
+
+--------
+
+We can emphazise a text using **bold** or _italic_.
+
+<br>
+
+### __Bold:__
+
+Add **two underscores or asterisks** before and after the text to be emphasized. 
+
+```markdown
+text to be __emphasized with bold__  
+text to be **emphasized with bold**
+```
+
+text to be __emphasized with bold__  
+text to be **emphasized with bold**
+
+<br>
+
+### __Italic:__  
+
+Add **one underscores or asterisks** before and after the text to be emphasized.
+
+```markdown
+text to be _emphasized with italic_  
+text to be *emphasized with italic*
+```
+
+text to be _emphasized with italic_  
+text to be *emphasized with italic*
+
+<br>
+
+### __Bold and Italic:__  
+
+Add **three underscores or asterisks or a combination of them** before and after the text to be emphasized.
+
+```markdown
+text to be ___emphasized with italic and bold___  
+text to be ***emphasized with italic and bold***
+
+text to be **_emphasized with italic and bold_**  
+text to be __*emphasized with italic and bold*__    
+```
+
+text to be ___emphasized with italic and bold___  
+text to be ***emphasized with italic and bold***  
+
+text to be **_emphasized with italic and bold_**  
+text to be __*emphasized with italic and bold*__  
+
+<br>
+
+- ***If you need to emphasize letters within a word, just use asterisks.***
+
+    ```markdown
+    the*word*emphasized
+    the**word**emphasized
+    the***word***emphasized
+    ```
+
+    the*word*emphasized  
+    the**word**emphasized  
+    the***word***emphasized  
+
