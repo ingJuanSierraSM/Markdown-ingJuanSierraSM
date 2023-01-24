@@ -180,3 +180,50 @@ text to be __*emphasized with italic and bold*__
     the**word**emphasized  
     the***word***emphasized  
 
+<br>
+
+Blockquotes
+-----------
+
+-----------
+
+A __Blockquote is used to write an exact paragraph or quote__ so that it can be distinguished from the rest of the text.
+
+- Add a __(>) before the quote or paragraph__.
+- To separate paragraphs, add a __blank line by adding a (>) and typing enter__.
+- Add __(>>) or more before a nested Blockquote__.
+- Put blank lines __before and after Blockquote__.
+
+    ```markdown
+    > This is an exact paragraph or exact quote.
+    >
+    > Add a blank line between paragraphs.
+    >> Nested Blockquote.
+    >>> Other nested Blockquote.
+    ```
+
+    > This is an exact paragraph or exact quote.  
+    > Second line.
+    >
+    > Add a blank line between paragraphs.
+    >> Nested Blockquote.
+    >>> Other nested Blockquote.
+
+- Blockquotes __can use the most of Markdown formatted elements__ (not all).
+
+    ```markdown
+    > # Blockquote.  
+    > Second line.
+    > -------------
+    > Add a blank line between paragraphs.
+    >> - Nested Blockquote.
+    >> - Nested Blockquote.
+    ```
+
+    > # Blockquote.  
+    > Second line.
+    > -------------
+    > Add a blank line between paragraphs.
+    >> - Nested Blockquote.
+    >> - Nested Blockquote.
+
