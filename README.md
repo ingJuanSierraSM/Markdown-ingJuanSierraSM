@@ -227,3 +227,68 @@ A __Blockquote is used to write an exact paragraph or quote__ so that it can be 
     >> - Nested Blockquote.
     >> - Nested Blockquote.
 
+<br>
+
+Lists
+----
+
+----
+
+We can create ___ordered___ and ___unordered___ lists.
+
+### __Ordered lists:__
+
+- Add Ordered list items with __integer numbers followed by period and space__.
+- The list __have to start with number__ one after, don't worry about the numerical order.
+
+    ```markdown
+    1. one item
+    1. two item
+    3. three item
+    15321. four item
+    ```
+    
+1. one item
+1. two item
+3. three item
+15321. four item
+
+<br>
+
+### __Unordered lists:__
+
+- Add Unordered list items with a __dash (-), asterisk (*), or plus sign (+)__ followed by a space.
+- As a good practice, __only use one type of sign__ for the entire list.
+
+    ```markdown
+    + item
+    + other item
+    + other item
+    ```
+
+    + item
+    + other item
+    + other item
+
+<br>
+
+___* You can add another list or Markdown element to a list just by indenting it into one of its items.___
+
+```markdown
+1. one item ordered list
+2. second item: add unordered list
+    + item
+    + other item
+    + add a Blockquote
+        > Blockquote
+3. third item
+```
+
+1. one item ordered list
+2. second item: add unordered list
+    + item
+    + other item
+    + add a Blockquote
+        > Blockquote
+3. third item
+
