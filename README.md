@@ -365,3 +365,36 @@ Enclose it in angle brackets (<>).
 <https://www.markdownguide.org>  
 <email@example.com>
 
+<br>
+
+Images
+------
+
+------
+
+The syntax for adding images is very similar to the link syntax, just add a sign (!) at the beginning.
+
+- An Image is made up of an ___Alternative text___ (Text to display in case the image fails to render.) enclosed in square brackets and the ___image URL___ enclosed in parentheses.
+- __Optionally__, you can add a ___Title___ by enclosing in (" ") and placing it right next to the URL. This is displayed when the mouse hovers over the image.
+
+```markdown
+![My alternative text](broken_url "Markdown icon!")
+
+![My alternative text](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg "Markdown icon!")
+```
+
+![My alternative text](broken_url "Markdown icon!")
+
+![My alternative text](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg "Markdown icon!")
+
+### Linked images:
+
+To add a link to an image, __enclose the image syntax__ within brackets, and then add the __URL__ within parentheses.
+
+```markdown
+[![My alternative text](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg "Image title")](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg)
+
+```
+
+[![My alternative text](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg "Image title")](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg)
+
