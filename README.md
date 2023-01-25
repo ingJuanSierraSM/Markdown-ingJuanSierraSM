@@ -292,3 +292,76 @@ ___* You can add another list or Markdown element to a list just by indenting it
         > Blockquote
 3. third item
 
+<br>
+
+Links
+-----
+
+-----
+
+We can create a link to go to an __external website__ or a __specific section__ of the document.
+
+- A link is made up of a ___link text___ enclosed in square brackets and the ___url___ enclosed in parentheses.
+- __Optionally__, you can add a ___Title___ by enclosing in (" ") and placing it right next to the URL. This is displayed when the mouse hovers over the link.
+
+    ```markdown
+    [This is a link](https://www.markdownguide.org)  
+    [This is a link](https://www.markdownguide.org "Optional Title")
+    ```
+
+    [This is a link](https://www.markdownguide.org)  
+    [This is a link](https://www.markdownguide.org "Optional Title")
+
+- A __section is a document__ ___heading___. You can use a link to go to a specific section in your document or inside an external website.
+- Place the __section name__ in _lowercase_ instead of the _URL_ immediately after a __(#)__ omitting the special characters and replacing the spaces with dashes. 
+
+
+    ```markdown
+    # The Example: Link $ #Secti0ns
+
+    [link to section](#the-example-link--secti0ns "Go to section")  
+    [Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)
+    ```
+    
+    # The Example: Link $ #Secti0ns
+
+    [link to section](#the-example-link--secti0ns "Go to section")  
+    [Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)
+
+\* When you have links within a text it can make it difficult to read, to solve this you can use the ___Reference-style Links___ that divide the link into two parts.
+
+- __First part:__ You put _this part in the text_. It consists of 2 sets of brackets. Inside the _first set of brackets, you put the link text_, and inside the _second set of brackets (it's not case-sensitive) you put a tag_, which is basically a text that serves as a reference to join the first part to the second part.
+- __Second part:__ You can put _this part anywhere in the document_, it consists of 2 mandatory attributes and one optional:
+    1. __The tag__ enclosed in square brackets followed by a colon and at least one space.
+    2. __The URL__ optionally enclosed in angle brackets (< >).
+    3. __(Optional)__ The Title for the link can be enclosed in double quotes (" "), single quotes (' '), or parentheses.
+
+    ```markdown
+    <!-- Readable text -->
+    This is text, and you can place one or more [Reference-style Links][tag] like [link 1][1] and [link 2][Not Case-sensitive] that help us not to affect the readability of the text.
+
+    <!-- Tags with URL: They are not rendered. -->
+    [tag]: https://www.markdownguide.org/basic-syntax/#formatting-the-second-part-of-the-link "Go to Reference-style Link"
+    [1]: <#links> 
+    [not case-Sensitive]: #links (Go to links)
+    ```
+
+    This is text, and you can place one or more [Reference-style Links][tag] like [link 1][1] and [link 2][Not Case-sensitive] that help us not to affect the readability of the text.
+
+    [tag]: https://www.markdownguide.org/basic-syntax/#formatting-the-second-part-of-the-link "Go to Reference-style Link"
+    [1]: <#links> 
+    [not case-Sensitive]: #links (Go to links)
+
+
+
+### __URLs and Email Addresses:__ 
+Enclose it in angle brackets (<>).
+
+```markdown
+<https://www.markdownguide.org>  
+<email@example.com>
+```
+
+<https://www.markdownguide.org>  
+<email@example.com>
+
