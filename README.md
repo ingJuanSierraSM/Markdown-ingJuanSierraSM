@@ -398,3 +398,61 @@ To add a link to an image, __enclose the image syntax__ within brackets, and the
 
 [![My alternative text](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg "Image title")](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg)
 
+<br>
+
+Code
+----
+
+----
+
+We can create ___inline code___ or ___code blocks___.
+<br>
+
+### __Inline code:__
+
+Enclose the phrase or code in __backticks (\`)__. If the code includes one or more backticks, use __double backticks (\``)__.
+
+```markdown
+This is a text that has a `<code>`.  
+This is a text that has `` a `<code>` with backticks inside``.
+```
+
+This is a text that has a `<code>`.  
+This is a text that has `` a `<code>` with backticks inside``.
+
+<br>
+
+### __Code blocks:__
+
+When we have __more than one line of code__, we use __code blocks__, There are _two options_ to create a code block:
+
+
+1. __Indenting:__ Indent all the lines of code.
+2. __Fenced:__ Depending on your Markdown processor or editor, add ___three backticks (\```)___ or ___three tildes (\~~~)___ on the __lines before and after__ the code block. __Optionally__, you can also add ___syntax highlighting___, specifying a _language next to the backticks_ before the fenced code block.
+
+```` markdown
+``` 
+<code>
+    <span>code block</span>
+</code>
+```
+
+``` html
+<code>
+    <span>fenced code block</span>
+</code>
+```
+````
+
+``` 
+<code>
+    <span>code block</span>
+</code>
+```
+
+``` html
+<code>
+    <span>fenced code block</span>
+</code>
+```
+
