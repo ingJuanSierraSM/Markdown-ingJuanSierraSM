@@ -7,6 +7,39 @@ Copyright (c) 2023 Juan Sierra | ing.juan.sierra.sm@gmail.com
 In this text, we can __easily and solidly learn__ the syntax of the __Markdown language__.  
 __Thank you for supporting me__ and giving this project a ___star___ ⭐.
 
+## Learning content:
+--------------------
+- [What is Markdown?](#what-is-markdown)
+- [Markdown's syntax](#markdowns-syntax)
+    - [Headings](#headings)
+    - [Paragraphs](#paragraphs)
+    - [Line Breaks](#line-breaks)
+    - [Emphasis](#emphasis)
+        - [Bold](#bold)
+        - [Italic](#italic)
+        - [Bold and Italic](#bold-and-italic)
+    - [Blockquotes](#blockquotes)
+    - [Lists](#lists)
+        - [Ordered lists](#ordered-lists)
+        - [Unordered lists](#unordered-lists)
+    - [Links](#links)
+        - [URLs and Email Addresses](#urls-and-email-addresses)
+    - [Images](#images)
+        - [Linked images](#linked-images)
+    - [Code](#code)
+        - [Inline code](#inline-code)
+        - [Code blocks](#code-blocks)
+    - [Tables](#tables)
+        - [Alignment](#alignment)
+    - [Horizontal Rules](#horizontal-rules)
+- [Additional syntax](#additional-syntax)
+    - [Strikethrough](#strikethrough)
+    - [Task Lists](#task-lists)
+    - [Emojis](#emojis)
+
+
+-----------------
+<br>
 
 What is Markdown?
 -----------------
