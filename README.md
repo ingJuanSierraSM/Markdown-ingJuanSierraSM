@@ -595,3 +595,26 @@ You can create a task list with checkboxes you have to define _three parts separ
 - [ ] item not selected
 - [x] item selected
 
+<br>
+
+Emojis
+------
+
+------
+
+You can add emojis by copying them from a source like [Emojipedia][Em1] and pasting them into the Markdown text, or you can also use [Emoji Shortcodes][Em2] which enclose the names of the emojis (spaces are replaced by an underscore) in ( : ).
+
+[Em1]: <https://emojipedia.org/> (Banco de emojis)
+[Em2]: <https://gist.github.com/rxaviers/7360908> (Banco de emoji shortcodes)
+
+```markdown
+this is an emoji copied 😉  
+this is an emogi shortcode :wink:
+```
+
+this is an emoji copied 😉  
+this is an emogi shortcode :wink:
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
