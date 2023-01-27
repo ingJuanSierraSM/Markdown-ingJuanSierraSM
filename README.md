@@ -557,3 +557,18 @@ You can use additional syntax if your Markdown editor or processor supports it, 
 
 [g1]: <https://github.com/> (GitHub)
 
+<br>
+
+Strikethrough
+-------------
+
+-------------
+
+You can strike through multiple words by enclosing them in __two tilde symbols (~~)__ to indicate that _these words are in error or should be removed from the document_.
+
+```markdown
+these ~~words should be removed~~ from the document
+```
+
+these ~~words should be removed~~ from the document
+
