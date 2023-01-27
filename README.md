@@ -355,15 +355,32 @@ We can create a link to go to an __external website__ or a __specific section__ 
 
 
 ### __URLs and Email Addresses:__ 
-Enclose it in angle brackets (<>).
+
+You should __enclose the URL or email in angle brackets (<>)__; however, if you don't, they may be _automatically converted to links_ if your Markdown processor supports it. 
 
 ```markdown
 <https://www.markdownguide.org>  
+https://www.markdownguide.org   
 <email@example.com>
+
 ```
 
 <https://www.markdownguide.org>  
+https://www.markdownguide.org   
 <email@example.com>
+
+___\* You can indicate the URL or email as [Inline code][u1] by enclosing it in backticks ( ` ). If you don't want a URL to be linked automatically.___
+
+[u1]: <#inline-code>
+
+```markdown
+https://www.markdownguide.org   
+`https://www.markdownguide.org`
+```
+
+https://www.markdownguide.org   
+`https://www.markdownguide.org`
+
 
 <br>
 
