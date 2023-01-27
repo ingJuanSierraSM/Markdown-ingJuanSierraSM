@@ -456,3 +456,55 @@ When we have __more than one line of code__, we use __code blocks__, There are _
 </code>
 ```
 
+<br>
+
+Tables
+------
+
+------
+
+To create a table, in the __first step__ is _mandatory_ to define the _table header_, whose syntax consists of _two lines_:
+- On the __first line__, you must place the _column headers_, separated by a vertical pipe ( \| ).
+- On the __second line__, you must place _three or more hyphens under each column header__ and separate each group of hyphens with a pipe ( \| ).
+
+The ___second step___ is to create each of the rows, where the content of each of the columns is separated by a pipe. You can add links, inline code (not code blocks), and emphasis.
+
+\* ___You must put a pipe ( \| ) at the beginning and end of each of the lines of the table.___
+
+```
+| column header 1   | Column header 2|
+|-------------------|----------------|
+| _row 1.1_         | ___row 1.2___  |  
+| [row 2.1](#tables)| `row 2.2`      |
+
+|column header 1|Column header 2|
+|-----|---|
+|_row 1.1_|___row 1.2___|  
+|[row 2.1](#tables)|`row 2.2`|
+```
+
+| column header 1   | Column header 2|
+|-------------------|----------------|
+| _row 1.1_         | ___row 1.2___  |  
+| [row 2.1](#tables)| `row 2.2`      |
+
+|column header 1|Column header 2|
+|-----|---|
+|_row 1.1_|___row 1.2___|  
+|[row 2.1](#tables)|`row 2.2`|
+
+### __Alignment:__
+You can align the content of each of the columns to the left, right, or center by adding a colon ( : ) to the left, right, or on both side of the hyphens within the second line of the table header.
+
+```
+|left alignment     |Center alignment |right alignment |
+|:------------------|:---------------:|---------------:|
+| _row 1.1_         | ___row 1.2___   | row 1.3        |   
+| [row 2.1](#tables)| `row 2.2`       | row 2.3        |
+```
+
+|left alignment     |Center alignment |right alignment |
+|:------------------|:---------------:|---------------:|
+| _row 1.1_         | ___row 1.2___   | row 1.3        |   
+| [row 2.1](#tables)| `row 2.2`       | row 2.3        |
+
