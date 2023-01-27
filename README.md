@@ -36,7 +36,7 @@ __Thank you for supporting me__ and giving this project a ___star___ ⭐.
     - [Strikethrough](#-strikethrough)
     - [Task Lists](#-task-lists)
     - [Emojis](#-emojis)
-
+- [Escaping Characters](#-escaping-characters)
 -----------------
 
 <br>
@@ -654,6 +654,42 @@ this is an emogi shortcode :wink:
 
 this is an emoji copied 😉  
 this is an emogi shortcode :wink:
+
+<br>
+
+[↰][top] Escaping Characters
+============================
+
+To display any character that is used in Markdown syntax, just __add a backslash ( \ ) before it__.
+
+This table shows the characters that you can escape with backslash:
+
+|Character| Name              |
+|:--------|:------------------|
+| \#	  |pound sign         |
+| \\	  |backslash          |
+| \`	  |backtick           |
+| \*	  |asterisk           |
+| \+	  |plus sign          |
+| \-	  |minus sign (hyphen)|
+| \_	  |underscore         |
+| \{ }	  |curly braces       |
+| \[ ]	  |brackets           |
+| \< >	  |angle brackets     |
+| \( )	  |parentheses        |
+| \.	  |dot                |
+| \|	  |pipe               |
+| \!	  |exclamation mark   |
+
+___For example:___
+
+``` markdown
+__\#__: This is a pound sign  
+__\!__: This is an exclamation mark
+```
+
+__\#__: This is a pound sign  
+__\!__: This is an exclamation mark
 
 -----------------------------------------------------------------
 -----------------------------------------------------------------
