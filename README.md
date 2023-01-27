@@ -548,3 +548,12 @@ __________
 ******
 __________
 
+<br>
+
+Additional syntax
+=================
+
+You can use additional syntax if your Markdown editor or processor supports it, such as [GitHub][g1].
+
+[g1]: <https://github.com/> (GitHub)
+
