@@ -2,49 +2,49 @@
 __Markdown__ Learning 🚀
 =================
 
-Copyright (c) 2023 Juan Sierra | ing.juan.sierra.sm@gmail.com
+Copyright (c) 2023 Juan Sierra | <ing.juan.sierra.sm@gmail.com>
 
 In this text, we can __easily and solidly learn__ the syntax of the __Markdown language__.  
 __Thank you for supporting me__ and giving this project a ___star___ ⭐.
 
 ## Learning content:
 --------------------
-- [What is Markdown?](#what-is-markdown)
-- [Markdown's syntax](#markdowns-syntax)
-    - [Headings](#headings)
-    - [Paragraphs](#paragraphs)
-    - [Line Breaks](#line-breaks)
-    - [Emphasis](#emphasis)
-        - [Bold](#bold)
-        - [Italic](#italic)
-        - [Bold and Italic](#bold-and-italic)
-    - [Blockquotes](#blockquotes)
-    - [Lists](#lists)
-        - [Ordered lists](#ordered-lists)
-        - [Unordered lists](#unordered-lists)
-    - [Links](#links)
-        - [URLs and Email Addresses](#urls-and-email-addresses)
-    - [Images](#images)
-        - [Linked images](#linked-images)
-    - [Code](#code)
-        - [Inline code](#inline-code)
-        - [Code blocks](#code-blocks)
-    - [Tables](#tables)
-        - [Alignment](#alignment)
-    - [Horizontal Rules](#horizontal-rules)
-- [Additional syntax](#additional-syntax)
-    - [Strikethrough](#strikethrough)
-    - [Task Lists](#task-lists)
-    - [Emojis](#emojis)
-
+- [What is Markdown?](#-what-is-markdown)
+- [Markdown's syntax](#-markdowns-syntax)
+    - [Headings](#-headings)
+    - [Paragraphs](#-paragraphs)
+    - [Line Breaks](#-line-breaks)
+    - [Emphasis](#-emphasis)
+        - [Bold](#-bold)
+        - [Italic](#-italic)
+        - [Bold and Italic](#-bold-and-italic)
+    - [Blockquotes](#-blockquotes)
+    - [Lists](#-lists)
+        - [Ordered lists](#-ordered-lists)
+        - [Unordered lists](#-unordered-lists)
+    - [Links](#-links)
+        - [URLs and Email Addresses](#-urls-and-email-addresses)
+    - [Images](#-images)
+        - [Linked images](#-linked-images)
+    - [Code](#-code)
+        - [Inline code](#-inline-code)
+        - [Code blocks](#-code-blocks)
+    - [Tables](#-tables)
+        - [Alignment](#-alignment)
+    - [Horizontal Rules](#-horizontal-rules)
+- [Additional syntax](#-additional-syntax)
+    - [Strikethrough](#-strikethrough)
+    - [Task Lists](#-task-lists)
+    - [Emojis](#-emojis)
 
 -----------------
+
 <br>
 
-What is Markdown?
------------------
+[↰][top] What is Markdown?
+=========================
 
------------------
+-------------------------
 
 Markdown is one of the world's most popular ___lightweight markup languages___:
 
@@ -54,13 +54,15 @@ Markdown is one of the world's most popular ___lightweight markup languages___:
 - It can be used to create ___websites, documents, notes, books, presentations, email messages,___ and ___technical documentation___.
 - It is __portable__ because it is a simple text file and is supported and used by many websites like __Reddit__ and __GitHub__.
 
-Markdown's syntax
-=================
+<br>
 
-Headings
---------
+[↰][top] Markdown's syntax
+=========================
 
---------
+[↰][top] Headings
+----------------
+
+----------------
 
 - Add from 1 to 6 (#) (depending on the heading level) before the words that compose it.
     - Always put a space after the number signs (#).
@@ -110,10 +112,10 @@ Headings
 
 <br>
 
-Paragraphs
-----------
+[↰][top] Paragraphs
+------------------
 
-----------
+------------------
 
 Separate with a __blank line__ (Type Enter) 2 paragraphs or lines of text.
 
@@ -129,10 +131,10 @@ Paragraph 2.
 
 <br>
 
-Line Breaks
------------
+[↰][top] Line Breaks
+-------------------
 
------------
+-------------------
 
 - Add 2 or more spaces after the line text (trailing whitespace) and type Enter.
 - You can use the `<br>` HTML tag as alternative.
@@ -149,16 +151,16 @@ Line Breaks
 
 <br>
 
-Emphasis
---------
+[↰][top] Emphasis
+----------------
 
---------
+----------------
 
 We can emphazise a text using **bold** or _italic_.
 
 <br>
 
-### __Bold:__
+### [↰][top] __Bold:__
 
 Add **two underscores or asterisks** before and after the text to be emphasized. 
 
@@ -172,7 +174,7 @@ text to be **emphasized with bold**
 
 <br>
 
-### __Italic:__  
+### [↰][top] __Italic:__  
 
 Add **one underscores or asterisks** before and after the text to be emphasized.
 
@@ -186,7 +188,7 @@ text to be *emphasized with italic*
 
 <br>
 
-### __Bold and Italic:__  
+### [↰][top] __Bold and Italic:__  
 
 Add **three underscores or asterisks or a combination of them** before and after the text to be emphasized.
 
@@ -220,10 +222,10 @@ text to be __*emphasized with italic and bold*__
 
 <br>
 
-Blockquotes
------------
+[↰][top] Blockquotes
+-------------------
 
------------
+-------------------
 
 A __Blockquote is used to write an exact paragraph or quote__ so that it can be distinguished from the rest of the text.
 
@@ -267,14 +269,14 @@ A __Blockquote is used to write an exact paragraph or quote__ so that it can be 
 
 <br>
 
-Lists
-----
+[↰][top] Lists
+-------------
 
-----
+-------------
 
 We can create ___ordered___ and ___unordered___ lists.
 
-### __Ordered lists:__
+### [↰][top] __Ordered lists:__
 
 - Add Ordered list items with __integer numbers followed by period and space__.
 - The list __have to start with number__ one after, don't worry about the numerical order.
@@ -293,7 +295,7 @@ We can create ___ordered___ and ___unordered___ lists.
 
 <br>
 
-### __Unordered lists:__
+### [↰][top] __Unordered lists:__
 
 - Add Unordered list items with a __dash (-), asterisk (*), or plus sign (+)__ followed by a space.
 - As a good practice, __only use one type of sign__ for the entire list.
@@ -332,14 +334,14 @@ ___* You can add another list or Markdown element to a list just by indenting it
 
 <br>
 
-Links
------
+[↰][top] Links
+-------------
 
------
+-------------
 
 We can create a link to go to an __external website__ or a __specific section__ of the document.
 
-- A link is made up of a ___link text___ enclosed in square brackets and the ___url___ enclosed in parentheses.
+- A link is made top of a ___link text___ enclosed in square brackets and the ___url___ enclosed in parentheses.
 - __Optionally__, you can add a ___Title___ by enclosing in (" ") and placing it right next to the URL. This is displayed when the mouse hovers over the link.
 
     ```markdown
@@ -392,7 +394,7 @@ We can create a link to go to an __external website__ or a __specific section__ 
 
 
 
-### __URLs and Email Addresses:__ 
+### [↰][top] __URLs and Email Addresses:__ 
 
 You should __enclose the URL or email in angle brackets (<>)__; however, if you don't, they may be _automatically converted to links_ if your Markdown processor supports it. 
 
@@ -422,14 +424,14 @@ https://www.markdownguide.org
 
 <br>
 
-Images
-------
+[↰][top] Images
+--------------
 
-------
+--------------
 
 The syntax for adding images is very similar to the link syntax, just add a sign (!) at the beginning.
 
-- An Image is made up of an ___Alternative text___ (Text to display in case the image fails to render.) enclosed in square brackets and the ___image URL___ enclosed in parentheses.
+- An Image is made top of an ___Alternative text___ (Text to display in case the image fails to render.) enclosed in square brackets and the ___image URL___ enclosed in parentheses.
 - __Optionally__, you can add a ___Title___ by enclosing in (" ") and placing it right next to the URL. This is displayed when the mouse hovers over the image.
 
 ```markdown
@@ -442,7 +444,7 @@ The syntax for adding images is very similar to the link syntax, just add a sign
 
 ![My alternative text](https://icon-library.com/images/markdown-icon/markdown-icon-4.jpg "Markdown icon!")
 
-### Linked images:
+### [↰][top] Linked images:
 
 To add a link to an image, __enclose the image syntax__ within brackets, and then add the __URL__ within parentheses.
 
@@ -455,15 +457,15 @@ To add a link to an image, __enclose the image syntax__ within brackets, and the
 
 <br>
 
-Code
-----
+[↰][top] Code
+------------
 
-----
+------------
 
 We can create ___inline code___ or ___code blocks___.
 <br>
 
-### __Inline code:__
+### [↰][top] __Inline code:__
 
 Enclose the phrase or code in __backticks (\`)__. If the code includes one or more backticks, use __double backticks (\``)__.
 
@@ -477,7 +479,7 @@ This is a text that has `` a `<code>` with backticks inside``.
 
 <br>
 
-### __Code blocks:__
+### [↰][top] __Code blocks:__
 
 When we have __more than one line of code__, we use __code blocks__, There are _two options_ to create a code block:
 
@@ -513,10 +515,10 @@ When we have __more than one line of code__, we use __code blocks__, There are _
 
 <br>
 
-Tables
-------
+[↰][top] Tables
+--------------
 
-------
+--------------
 
 To create a table, in the __first step__ is _mandatory_ to define the _table header_, whose syntax consists of _two lines_:
 - On the __first line__, you must place the _column headers_, separated by a vertical pipe ( \| ).
@@ -548,7 +550,7 @@ The ___second step___ is to create each of the rows, where the content of each o
 |_row 1.1_|___row 1.2___|  
 |[row 2.1](#tables)|`row 2.2`|
 
-### __Alignment:__
+### [↰][top] __Alignment:__
 You can align the content of each of the columns to the left, right, or center by adding a colon ( : ) to the left, right, or on both side of the hyphens within the second line of the table header.
 
 ```
@@ -565,10 +567,10 @@ You can align the content of each of the columns to the left, right, or center b
 
 <br>
 
-Horizontal Rules
------------------
+[↰][top] Horizontal Rules
+------------------------
 
------------------
+------------------------
 
 On a line, add only __three or more__ asterisks (***), hyphens (---), or underscores (___). Add a blank line before and after a horizontal rule.
 
@@ -588,8 +590,8 @@ __________
 
 <br>
 
-Additional syntax
-=================
+[↰][top] Additional syntax
+==========================
 
 You can use additional syntax if your Markdown editor or processor supports it, such as [GitHub][g1].
 
@@ -597,10 +599,10 @@ You can use additional syntax if your Markdown editor or processor supports it, 
 
 <br>
 
-Strikethrough
--------------
+[↰][top] Strikethrough
+---------------------
 
--------------
+---------------------
 
 You can strike through multiple words by enclosing them in __two tilde symbols (~~)__ to indicate that _these words are in error or should be removed from the document_.
 
@@ -612,10 +614,10 @@ these ~~words should be removed~~ from the document
 
 <br>
 
-Task Lists
-----------
+[↰][top] Task Lists
+------------------
 
-----------
+------------------
 
 You can create a task list with checkboxes you have to define _three parts separated by a space_:
 
@@ -635,10 +637,10 @@ You can create a task list with checkboxes you have to define _three parts separ
 
 <br>
 
-Emojis
-------
+[↰][top] Emojis
+--------------
 
-------
+--------------
 
 You can add emojis by copying them from a source like [Emojipedia][Em1] and pasting them into the Markdown text, or you can also use [Emoji Shortcodes][Em2] which enclose the names of the emojis (spaces are replaced by an underscore) in ( : ).
 
@@ -656,3 +658,5 @@ this is an emogi shortcode :wink:
 -----------------------------------------------------------------
 -----------------------------------------------------------------
 -----------------------------------------------------------------
+
+[top]: <#learning-content> (Go to learning content)
