@@ -572,3 +572,26 @@ these ~~words should be removed~~ from the document
 
 these ~~words should be removed~~ from the document
 
+<br>
+
+Task Lists
+----------
+
+----------
+
+You can create a task list with checkboxes you have to define _three parts separated by a space_:
+
+1. __A hyphen__ (Indicates the beginning of a list item).
+2. __The checkbox__ that is created with a pair of brackets that enclose an `x` if ___it is selected___ or a `space` if ___it is not___.
+3. The __list item__.
+
+```markdown
+- [x] item selected
+- [ ] item not selected
+- [x] item selected
+```
+
+- [x] item selected
+- [ ] item not selected
+- [x] item selected
+
