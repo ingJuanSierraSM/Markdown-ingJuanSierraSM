@@ -508,3 +508,26 @@ You can align the content of each of the columns to the left, right, or center b
 | _row 1.1_         | ___row 1.2___   | row 1.3        |   
 | [row 2.1](#tables)| `row 2.2`       | row 2.3        |
 
+<br>
+
+Horizontal Rules
+-----------------
+
+-----------------
+
+On a line, add only __three or more__ asterisks (***), hyphens (---), or underscores (___). Add a blank line before and after a horizontal rule.
+
+```markdown
+
+---
+
+******
+__________
+
+```
+
+---
+
+******
+__________
+
